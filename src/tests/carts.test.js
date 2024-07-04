@@ -14,7 +14,7 @@ describe('Testing Cart API', () => {
   
 
   it('Obtener Carrito', async () => {
-    const cartId = "6625799fc9e9bdf4572ba13f";
+    const cartId = "6670e4fa5291ae72fb3e6cd6";
     const { statusCode, body } = await requester.get(`/api/carts/${cartId}`);
 
     expect(statusCode).to.equal(200);
@@ -22,7 +22,7 @@ describe('Testing Cart API', () => {
   });
 
   it('Eliminar todos los productos del carrito', async () => {
-    const cartId = "6625799fc9e9bdf4572ba13f";
+    const cartId = "6670e4fa5291ae72fb3e6cd6";
   
     const { statusCode, body } = await requester.delete(`/api/carts/${cartId}`);
 

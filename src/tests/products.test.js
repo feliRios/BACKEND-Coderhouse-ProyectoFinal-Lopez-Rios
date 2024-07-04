@@ -6,7 +6,7 @@ const requester = supertest('http://localhost:8080');
 
 describe('Testing Products API', () => {
   it('Actualizar Producto', async () => {
-    const productId = "665931022475fa29caf68c06";
+    const productId = "667100b3dee4b0086cf661e6";
   
     const updatedProduct = {
       name: 'Producto Actualizado 4',
@@ -29,7 +29,7 @@ describe('Testing Products API', () => {
   });
 
   it('Obtener Producto por ID', async () => {
-    const productId = '665931022475fa29caf68c06';
+    const productId = '667100b3dee4b0086cf661e6';
     const { statusCode, body } = await requester.get(`/api/products/${productId}`);
 
     expect(statusCode).to.equal(200);
@@ -37,7 +37,7 @@ describe('Testing Products API', () => {
   });
 
   it('Obtener Producto con ID incorrecta', async () => {
-    const productId = '665931022475fa29caf68c07';
+    const productId = '667100b3dee4b0086cf668hj';
     const { statusCode, body } = await requester.get(`/api/products/${productId}`);
 
     expect(statusCode).to.equal(404);

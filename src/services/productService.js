@@ -133,7 +133,7 @@ try {
     status: false,
     stock: 20,
     category: 'Category 1',
-    thumbnail: 'https://www.pngarts.com/files/8/Apple-iPhone-11-Download-PNG-Image.png',
+    thumbnail: 'https://multipoint.com.ar/Image/0/750_750-3107.jpg',
   });
 
   product.addProduct({
@@ -144,7 +144,7 @@ try {
     status: false,
     stock: 15,
     category: 'Category 2',
-    thumbnail: 'https://imgur.com/Fn9kZve.png',
+    thumbnail: 'https://www.soscomputacion.com.ar/16806-thickbox_default/mouse-logitech-g502-gaming-hero-11-botones-play-advanced-hasta-16000dpi.jpg',
   });
 
   product.addProduct({
@@ -155,7 +155,7 @@ try {
     status: false,
     stock: 10,
     category: 'Category 1',
-    thumbnail: 'https://imgur.com/u6wclcF.png',
+    thumbnail: 'https://http2.mlstatic.com/D_NQ_NP_696653-MLU70045243622_062023-O.webp',
   });
 
   product.addProduct({
@@ -166,7 +166,7 @@ try {
     status: true,
     stock: 18,
     category: 'Category 3',
-    thumbnail: 'https://imgur.com/csvQT5F.png',
+    thumbnail: 'https://http2.mlstatic.com/D_NQ_NP_945713-MLU72572022194_112023-O.webp',
   });
 
   product.addProduct({
@@ -177,7 +177,7 @@ try {
     status: true,
     stock: 22,
     category: 'Category 2',
-    thumbnail: 'https://imgur.com/DrC8wiB.png',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwfczJSRz2Afkr5t7l8wNjjIJ0xlBHDFHuUA&s',
   });
 
   product.addProduct({
@@ -188,7 +188,7 @@ try {
     status: true,
     stock: 12,
     category: 'Category 1',
-    thumbnail: 'https://imgur.com/Ms0uVyZ.png',
+    thumbnail: 'https://static.nb.com.ar/i/nb_SILLA-GAMER-RAIDMAX-DK-719GY-GRIS_ver_d37456258a7625505c34c742f30947e6.jpeg',
   });
 
 } catch (error) {
